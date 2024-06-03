@@ -5,6 +5,6 @@ public class Main {
      GameManager gameManager = new GameManager();
      gameManager.initGame();
         String winner = gameManager.startGame();
-        System.out.println("winner : "+winner);
+        System.out.println("Game winner : "+winner);
     }
 }
